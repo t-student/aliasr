@@ -1,0 +1,11 @@
+Package: aliasr
+Type: Package
+Title: Alternative names for common R commands
+Version: 0.1.0
+Author:  Mark Jones [aut, cre],
+Maintainer: Mark Jones <maj@fred.com>
+Description: This is basically a demo.
+    It provides some abbreviated functionality relative to base R.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
