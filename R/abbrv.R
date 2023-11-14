@@ -27,3 +27,8 @@ proptbl <- function(...,
   prop.table(table(...))
 }
 
+csum <- function(x, na.rm = T){
+  x_new <- x[!is.na(x)]
+  c_x_new <- cumsum(x_new)
+  c_x_new
+}
